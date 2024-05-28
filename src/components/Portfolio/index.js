@@ -99,7 +99,7 @@ function Portfolio() {
         <div className="job">
           <div className="job-info">
             <div className="job-img">
-              <a href="https://timetracker3000-defb31293696.herokuapp.com/data">
+              <a href="https://timetracker3000-defb31293696.herokuapp.com/">
                 {" "}
                 <img
                   src={timeTracker}
