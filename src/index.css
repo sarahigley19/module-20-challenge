@@ -266,12 +266,6 @@ header nav ul li a:hover {
 
 }
 
-/*.contact-form input:focus,
-.contact-form textarea:focus {
-  background-color: F7F0D5;
-  outline: none;
-}*/
-
 .contact-form button {
   width: 50%;
   border: none;
@@ -295,7 +289,6 @@ header nav ul li a:hover {
 }
 
 .contact-info div {
-  width: 410px;
   vertical-align: top;
   text-align: left;
   margin: 30px;
@@ -401,133 +394,307 @@ header nav ul li a:hover {
 /* Mobile Version */
 
 @media screen and (max-width: 980px) {
+
+  /* Adjustments for Header */
   header {
-    padding-bottom: 0;
-    justify-content: center;
-    position: relative;
-
-  }
-
-  header h1 {
-    width: 100%;
-    text-align: center;
-  }
-
-  header nav ul {
-    margin-top: 20px;
-    width: 100%;
-    justify-content: center;
+    padding: 15px;
   }
 
   header nav ul li a {
-    font-size: 20px;
+    font-size: 14px;
   }
 
-  hero-cta {
+  /* Adjustments for Main Body */
+  #main-body {
+    padding-top: 10px;
+  }
+
+  .main-body-text {
+    padding: 15px;
+  }
+
+  .main-body-text h2 {
+    font-size: 24px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+
+  .main-body-text p {
+    font-size: 16px;
+    margin: 10px 0;
+  }
+
+  /* Adjustments for About Info */
+  .about-info p {
+    font-size: 16px;
+    margin-bottom: 15px;
+  }
+
+  /* Adjustments for Section Titles */
+  .section-title {
+    font-size: 24px;
+    margin: 15px auto;
+  }
+
+  /* Adjustments for Jobs */
+  .job {
+    margin: 15px auto;
+  }
+
+  .job-text h4 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+
+  .job-text p {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+
+  /* Adjustments for Contact */
+  .contact-form {
+    padding: 0 15px;
+  }
+
+  .contact-form input,
+  .contact-form textarea {
+    font-size: 14px;
+  }
+
+  .contact-form button {
+    font-size: 14px;
+  }
+
+  .contact-info h3 {
+    font-size: 16px;
+  }
+
+  .contact-info p,
+  .contact-info address {
+    font-size: 14px;
+  }
+
+  /* Adjustments for Resume */
+  .download-intro p {
+    font-size: 16px;
+    margin: 15px auto;
+  }
+
+  .download-text {
     width: 100%;
   }
 
-  .hero-cta {
-    text-align: center;
+  .download-logo {
+    font-size: 24px;
   }
 
-  .section-title {
-    width: 80%;
+  /* Adjustments for Footer */
+  .footer {
+    font-size: 10px;
+    padding: 10px 15px;
   }
-
-
-  .contact-info {
-    flex: 1 100%;
-  }
-
-  #contact-list {
-    display: block;
-    justify-content: space-around;
-    flex-wrap: wrap;
-
-  }
-
 }
 
 @media screen and (max-width: 768px) {
 
-  section {
-    padding: 30px 15px;
+  /* Adjustments for Header */
+  header {
+    padding: 15px;
   }
 
-  .job h3 {
-    flex: 1 100%;
-    text-align: center;
+  header nav ul li a {
+    font-size: 14px;
   }
 
-  .job-info {
-    flex: 2 100%;
-    text-align: center;
-    justify-content: center;
+  /* Adjustments for Main Body */
+  #main-body {
+    padding-top: 10px;
   }
 
-  .job-img,
-  .intro-img {
-    flex: 0 32%;
-    margin-right: 0;
-    margin-top: 15px;
+  .main-body-text {
+    padding: 15px;
+  }
+
+  .main-body-text h2 {
+    font-size: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+
+  .main-body-text p {
+    font-size: 14px;
+    margin: 10px 0;
+  }
+
+  /* Adjustments for About Info */
+  .about-info p {
+    font-size: 14px;
     margin-bottom: 15px;
   }
 
-  .job-img {
-    margin-right: 100px;
+  /* Adjustments for Section Titles */
+  .section-title {
+    font-size: 20px;
+    margin: 15px auto;
   }
 
-  .job-text {
-    flex: 100%;
+  /* Adjustments for Jobs */
+  .job {
+    margin: 15px auto;
   }
 
-  #contact-list {
-    display: block;
-    justify-content: space-around;
-    flex-wrap: wrap;
+  .job-text h4 {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
 
+  .job-text p {
+    font-size: 12px;
+    margin-bottom: 10px;
+  }
+
+  /* Adjustments for Contact */
+  .contact-form {
+    padding: 0 15px;
+  }
+
+  .contact-form input,
+  .contact-form textarea {
+    font-size: 14px;
+  }
+
+  .contact-form button {
+    font-size: 14px;
+  }
+
+  .contact-info h3 {
+    font-size: 16px;
+  }
+
+  .contact-info p,
+  .contact-info address {
+    font-size: 14px;
+  }
+
+  /* Adjustments for Resume */
+  .download-intro p {
+    font-size: 16px;
+    margin: 15px auto;
+  }
+
+  .download-text {
+    width: 100%;
+  }
+
+  .download-logo {
+    font-size: 20px;
+  }
+
+  /* Adjustments for Footer */
+  .footer {
+    font-size: 10px;
+    padding: 10px 15px;
   }
 }
 
 @media screen and (max-width: 575px) {
+
+  /* Adjustments for Header */
+  header {
+    padding: 10px;
+  }
+
+  header nav ul li a {
+    font-size: 12px;
+  }
+
+  /* Adjustments for Main Body */
+  #main-body {
+    padding-top: 5px;
+  }
+
+  .main-body-text {
+    padding: 10px;
+  }
+
+  .main-body-text h2 {
+    font-size: 18px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .main-body-text p {
+    font-size: 12px;
+    margin: 5px 0;
+  }
+
+  /* Adjustments for About Info */
+  .about-info p {
+    font-size: 12px;
+    margin-bottom: 10px;
+  }
+
+  /* Adjustments for Section Titles */
   .section-title {
-    width: 95%;
+    font-size: 18px;
+    margin: 10px auto;
   }
 
-  .intro p,
+  /* Adjustments for Jobs */
+  .job {
+    margin: 10px auto;
+  }
+
+  .job-text h4 {
+    font-size: 14px;
+    margin-bottom: 5px;
+  }
+
+  .job-text p {
+    font-size: 10px;
+    margin-bottom: 5px;
+  }
+
+  /* Adjustments for Contact */
+  .contact-form {
+    padding: 0 10px;
+  }
+
+  .contact-form input,
+  .contact-form textarea {
+    font-size: 12px;
+  }
+
+  .contact-form button {
+    font-size: 12px;
+  }
+
+  .contact-info h3 {
+    font-size: 14px;
+  }
+
+  .contact-info p,
+  .contact-info address {
+    font-size: 12px;
+  }
+
+  /* Adjustments for Resume */
   .download-intro p {
+    font-size: 14px;
+    margin: 10px auto;
+  }
+
+  .download-text {
     width: 100%;
-    padding: 30px 15px;
   }
 
-  .job-img {
-    margin-right: 100px;
+  .download-logo {
+    font-size: 16px;
   }
 
-  .contact-info {
-    text-align: center;
-
+  /* Adjustments for Footer */
+  .footer {
+    font-size: 8px;
+    padding: 5px 10px;
   }
-
-  .contact-info li {
-    font-size: 25px;
-    justify-content: space-between;
-  }
-
-  #contact-list {
-    font-size: 25px;
-    display: block;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    margin-bottom: 25px;
-    margin-right: 120px;
-
-  }
-
-  .contact-info>* {
-    flex: 0 100%;
-  }
-
-
 }
